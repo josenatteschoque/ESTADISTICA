@@ -3,9 +3,9 @@
 #Generar un histograma de frecuencias empleando 10 intervalos
 
 #Cargo un vector con los datos
-precipitaciones <- c(12, 27, 3,  2, 5, 2, 9, 4, 1, 10, 6, 4, 3, 1, 3, 1, 7, 14,
-4, 5, 21, 3, 4, 4, 10, 1, 4, 6, 19, 6, 4, 16, 3, 27, 3, 4, 2, 4, 2, 1, 3, 3, 4,
-9, 4, 4, 3, 8, 46, 3, 4, 2)
+precipitaciones <- c(12, 27, 3, 2, 5, 2, 9, 4, 1, 10, 6, 4, 3, 1, 3, 1, 7, 14, 
+                     4, 5, 21, 3, 4, 4, 10, 1, 4, 6, 19, 6, 4, 16, 3, 17, 3, 
+                     4, 2, 4, 2, 1, 3, 3, 4, 9, 4, 4, 3, 8, 46, 3, 4, 2)
 
 #Creo el histograma
 hist(
