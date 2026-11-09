@@ -59,7 +59,10 @@ hist(datos$Tiempo..min.[datos$Hora.del.día == "Late Night (12 AM)"],
 #d) Calcular la media aritmética, mediana, rango, varianza y desviación estándar
 #para cada hora del día.
 #Explorar los resultados en c) y d): ¿cuál parece ser la mejor hora para bajar archivos?
-#  ¿en cuál hay mayor variabilidad relativa? 
+#¿en cuál hay mayor variabilidad relativa? 
+
+#La mejor hora para bajar los archivos es alas 7 AM porque la media es de 1.88 
+#minutos aproximadamente
 
 #Mañana
 mañana <- datos$Tiempo..min.[datos$Hora.del.día == "Early (7AM)"]
