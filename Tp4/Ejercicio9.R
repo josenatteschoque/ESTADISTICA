@@ -30,3 +30,26 @@ boxplot(Deuda ~ Moroso, data = datos,
 
 #d) Repetir c) para explorar si el género, estado civil y educación tienen algún efecto
 #sobre el monto de la deuda
+
+#Deuda segun el genero
+boxplot(Deuda ~ Genero, data = datos,
+        main = "Monto de Deuda según el Genero",
+        xlab = "Genero (1 = Hombre, 0 = Mujer)",
+        ylab = "Monto de Deuda (NT$)",
+        col = c("skyblue", "pink"))
+
+
+#Deuda segun el Estado civil
+boxplot(Deuda ~ Estado.civil, data = datos,
+        main = "Monto de Deuda según el Estado civil",
+        xlab = "Estado civil:  (Casado = 1, Soltero = 2, Otros = 3)",
+        ylab = "Monto de Deuda (NT$)",
+        col = c("lightgreen", "khaki", "coral"))
+
+
+#Deuda segun la Educacion
+boxplot(Deuda ~ Educacion, data = datos,
+        main = "Monto de Deuda según la Educacion",
+        xlab = "Educacion:  (Posgrado = 1, Grado = 2 ,Secundario = 3, Otros = 4)",
+        ylab = "Monto de Deuda (NT$)",
+        col = c("orchid", "gold", "cyan", "lightgray"))
